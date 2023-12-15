@@ -33,21 +33,7 @@
 		D87BA953FB1F37BB8967AE6F /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D249C12310CFA82D741EAE6F /* Trim.swift */; };
 		E8F2B52851E432A85780F7A2 /* AdjacentPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA017AE4A351BB63C87799C9 /* AdjacentPairs.swift */; };
 		F288739D2B2C00030090904D /* RealModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288738D2B2BFDF10090904D /* RealModule.xcframework */; };
-		F29D9CFD2B2C062800A6CA6D /* RealModule.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AC7400B8F35E23228663B192 /* RealModule.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DB08A24CCF51F5F6009BB7C1 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				F29D9CFD2B2C062800A6CA6D /* RealModule.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		12E459392B18356432B5EBC9 /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
@@ -198,7 +184,6 @@
 				78BE7FE5DABA7AE2E163B15A /* Sources */,
 				FEC55C4CC2D3E772B607C402 /* Resources */,
 				D5D66C4B7AB20B85E830D02F /* Frameworks */,
-				DB08A24CCF51F5F6009BB7C1 /* Dependencies */,
 			);
 			buildRules = (
 			);
