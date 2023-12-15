@@ -30,28 +30,22 @@
 		AB6937B6345FB0E2FF7213AE /* FirstNonNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC520AAB1378458054FECFFD /* FirstNonNil.swift */; };
 		C03AD89AC550DE661E6B3422 /* Joined.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE000A2BE3BBA298643BF70 /* Joined.swift */; };
 		C2829B68D59542A9E6E5DBB0 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527582372D04931AA3307B75 /* Chain.swift */; };
-		D1E196BAAEC3D73492EB7B25 /* RealModule.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AC7400B8F35E23228663B192 /* RealModule.framework */; };
 		D87BA953FB1F37BB8967AE6F /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D249C12310CFA82D741EAE6F /* Trim.swift */; };
 		E8F2B52851E432A85780F7A2 /* AdjacentPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA017AE4A351BB63C87799C9 /* AdjacentPairs.swift */; };
+		F288739D2B2C00030090904D /* RealModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288738D2B2BFDF10090904D /* RealModule.xcframework */; };
+		F288739F2B2C000A0090904D /* RealModule.xcframework in Dependencies */ = {isa = PBXBuildFile; fileRef = F288739E2B2C000A0090904D /* RealModule.xcframework */; };
+		F28873A02B2C00120090904D /* _NumericsShims.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288738C2B2BFDF10090904D /* _NumericsShims.xcframework */; };
+		F28873A22B2C00160090904D /* _NumericsShims.xcframework in Dependencies */ = {isa = PBXBuildFile; fileRef = F28873A12B2C00160090904D /* _NumericsShims.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		138E9DC386B97B859FB770F0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DB08A24CCF51F5F6009BB7C1 /* Dependencies */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				D1E196BAAEC3D73492EB7B25 /* RealModule.framework in Dependencies */,
+				F288739F2B2C000A0090904D /* RealModule.xcframework in Dependencies */,
+				F28873A22B2C00160090904D /* _NumericsShims.xcframework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -84,6 +78,10 @@
 		E00D1AFB6F7169474346FF6A /* Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cycle.swift; sourceTree = "<group>"; };
 		E16AC1D99CD197BC437D3E0B /* Intersperse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersperse.swift; sourceTree = "<group>"; };
 		F0288C2232DB143707EDE1E6 /* FlattenCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenCollection.swift; sourceTree = "<group>"; };
+		F288738C2B2BFDF10090904D /* _NumericsShims.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = _NumericsShims.xcframework; path = Carthage/Build/_NumericsShims.xcframework; sourceTree = "<group>"; };
+		F288738D2B2BFDF10090904D /* RealModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealModule.xcframework; path = Carthage/Build/RealModule.xcframework; sourceTree = "<group>"; };
+		F288739E2B2C000A0090904D /* RealModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealModule.xcframework; path = Carthage/Build/RealModule.xcframework; sourceTree = "<group>"; };
+		F28873A12B2C00160090904D /* _NumericsShims.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = _NumericsShims.xcframework; path = Carthage/Build/_NumericsShims.xcframework; sourceTree = "<group>"; };
 		F5964E46297EA50B54491C48 /* MinMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
 		F6A7F50924CE9B029274E9DC /* EitherSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherSequence.swift; sourceTree = "<group>"; };
 		FE6D2C1F56F62FBC4F8698F6 /* Compacted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compacted.swift; sourceTree = "<group>"; };
@@ -94,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F288739D2B2C00030090904D /* RealModule.xcframework in Frameworks */,
+				F28873A02B2C00120090904D /* _NumericsShims.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +103,8 @@
 		010E664ECFED27035FEA4D26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F288738C2B2BFDF10090904D /* _NumericsShims.xcframework */,
+				F288738D2B2BFDF10090904D /* RealModule.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +120,8 @@
 		54D022902532A98559DAD6E9 = {
 			isa = PBXGroup;
 			children = (
+				F28873A12B2C00160090904D /* _NumericsShims.xcframework */,
+				F288739E2B2C000A0090904D /* RealModule.xcframework */,
 				F20930C5EF1AB0F7CB6587A5 /* Project */,
 				010E664ECFED27035FEA4D26 /* Frameworks */,
 				5FF8B7785130E2F7B5DDA9F4 /* Products */,
@@ -199,7 +203,6 @@
 			buildPhases = (
 				78BE7FE5DABA7AE2E163B15A /* Sources */,
 				FEC55C4CC2D3E772B607C402 /* Resources */,
-				138E9DC386B97B859FB770F0 /* Embed Frameworks */,
 				D5D66C4B7AB20B85E830D02F /* Frameworks */,
 				DB08A24CCF51F5F6009BB7C1 /* Dependencies */,
 			);
@@ -360,9 +363,9 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/Carthage/Checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../swift-numerics/Sources/_NumericsShims/include/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Carthage/Checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = Algorithms;
 				PRODUCT_NAME = Algorithms;
 				SDKROOT = iphoneos;
@@ -374,6 +377,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				"SWIFT_OPTIMIZATION_LEVEL[arch=*]" = "-Owholemodule";
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -574,9 +578,9 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/Carthage/Checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../swift-numerics/Sources/_NumericsShims/include/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Carthage/Checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = Algorithms;
 				PRODUCT_NAME = Algorithms;
 				SDKROOT = iphoneos;
