@@ -4,3 +4,7 @@
 xcuserdata/
 /.swiftpm
 Package.resolved
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
