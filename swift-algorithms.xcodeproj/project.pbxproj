@@ -33,9 +33,7 @@
 		D87BA953FB1F37BB8967AE6F /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D249C12310CFA82D741EAE6F /* Trim.swift */; };
 		E8F2B52851E432A85780F7A2 /* AdjacentPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA017AE4A351BB63C87799C9 /* AdjacentPairs.swift */; };
 		F288739D2B2C00030090904D /* RealModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288738D2B2BFDF10090904D /* RealModule.xcframework */; };
-		F288739F2B2C000A0090904D /* RealModule.xcframework in Dependencies */ = {isa = PBXBuildFile; fileRef = F288739E2B2C000A0090904D /* RealModule.xcframework */; };
-		F28873A02B2C00120090904D /* _NumericsShims.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288738C2B2BFDF10090904D /* _NumericsShims.xcframework */; };
-		F28873A22B2C00160090904D /* _NumericsShims.xcframework in Dependencies */ = {isa = PBXBuildFile; fileRef = F28873A12B2C00160090904D /* _NumericsShims.xcframework */; };
+		F29D9CFD2B2C062800A6CA6D /* RealModule.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AC7400B8F35E23228663B192 /* RealModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,8 +42,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				F288739F2B2C000A0090904D /* RealModule.xcframework in Dependencies */,
-				F28873A22B2C00160090904D /* _NumericsShims.xcframework in Dependencies */,
+				F29D9CFD2B2C062800A6CA6D /* RealModule.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -80,8 +77,7 @@
 		F0288C2232DB143707EDE1E6 /* FlattenCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenCollection.swift; sourceTree = "<group>"; };
 		F288738C2B2BFDF10090904D /* _NumericsShims.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = _NumericsShims.xcframework; path = Carthage/Build/_NumericsShims.xcframework; sourceTree = "<group>"; };
 		F288738D2B2BFDF10090904D /* RealModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealModule.xcframework; path = Carthage/Build/RealModule.xcframework; sourceTree = "<group>"; };
-		F288739E2B2C000A0090904D /* RealModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealModule.xcframework; path = Carthage/Build/RealModule.xcframework; sourceTree = "<group>"; };
-		F28873A12B2C00160090904D /* _NumericsShims.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = _NumericsShims.xcframework; path = Carthage/Build/_NumericsShims.xcframework; sourceTree = "<group>"; };
+		F29D9CF92B2C059B00A6CA6D /* RealModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealModule.xcframework; path = Carthage/Build/RealModule.xcframework; sourceTree = "<group>"; };
 		F5964E46297EA50B54491C48 /* MinMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
 		F6A7F50924CE9B029274E9DC /* EitherSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherSequence.swift; sourceTree = "<group>"; };
 		FE6D2C1F56F62FBC4F8698F6 /* Compacted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compacted.swift; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F288739D2B2C00030090904D /* RealModule.xcframework in Frameworks */,
-				F28873A02B2C00120090904D /* _NumericsShims.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +115,7 @@
 		54D022902532A98559DAD6E9 = {
 			isa = PBXGroup;
 			children = (
-				F28873A12B2C00160090904D /* _NumericsShims.xcframework */,
-				F288739E2B2C000A0090904D /* RealModule.xcframework */,
+				F29D9CF92B2C059B00A6CA6D /* RealModule.xcframework */,
 				F20930C5EF1AB0F7CB6587A5 /* Project */,
 				010E664ECFED27035FEA4D26 /* Frameworks */,
 				5FF8B7785130E2F7B5DDA9F4 /* Products */,
